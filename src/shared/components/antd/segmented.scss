@@ -1,0 +1,38 @@
+//
+// SEGMENT ----------------------------------------------------------------------
+//
+.ant-segmented {
+   height: 48px !important;
+   padding: 0 8px !important;
+   box-sizing: border-box !important;
+   border: 1px solid var(--color-neutral-1-5) !important;
+   border-radius: 8px !important;
+   background-color: var(--color-neutral-0) !important;
+   display: flex;
+   align-items: center;
+   &.ant-segmented-lg {
+      .ant-segmented-group {
+         gap: 4px;
+         .ant-segmented-thumb {
+            background-color: var(--color-blue-4) !important;
+            color: var(--color-neutral-0) !important;
+         }
+         .ant-segmented-item {
+            box-shadow: none !important;
+            border-radius: 5px !important;
+            &.ant-segmented-item-selected {
+               background-color: var(--color-blue-4) !important;
+               color: var(--color-neutral-0) !important;
+            }
+            .ant-segmented-item-label {
+               min-height: 32px !important;
+               line-height: 32px !important;
+               padding: 0 12px !important;
+               font-size: 14px !important;
+               display: flex !important;
+               align-items: center !important;
+            }
+         }
+      }
+   }
+}

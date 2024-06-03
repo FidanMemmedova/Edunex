@@ -1,0 +1,90 @@
+.ant-popover {
+   &.ant-popconfirm {
+      &.ant-popover-placement-topRight,
+      &.ant-popover-placement-topLeft,
+      &.ant-popover-placement-top {
+         margin-bottom: 16px;
+      }
+      .ant-popover-content {
+         .ant-popover-inner {
+            background-color: var(--color-error-0) !important;
+            border: 2px solid var(--color-error-2);
+            background-clip: padding-box;
+            border-radius: 10px;
+            box-shadow:
+                    0 6px 16px 0 rgba(0, 0, 0, 0.08),
+                    0 3px 6px -4px rgba(0, 0, 0, 0.12),
+                    0 9px 28px 8px rgba(0, 0, 0, 0.05);
+            padding: 20px 16px;
+            .ant-popover-inner-content {
+               .ant-popconfirm-inner-content {
+                  .ant-popconfirm-message {
+                     .ant-popconfirm-message-icon {
+                        padding-left: 4px;
+                        padding-top: 4px;
+                        svg {
+                           fill: var(--color-error-3) !important;
+                           transform: scale(1.5);
+                        }
+                     }
+                     .ant-popconfirm-message-text {
+                        padding-left: 8px;
+                        .ant-popconfirm-title {
+                           font-size: 18px;
+                           line-height: 24px;
+                           color: var(--color-error-3);
+                        }
+                        .ant-popconfirm-description {
+                           font-size: 14px;
+                           line-height: 20px;
+                           color: var(--color-error-8);
+                        }
+                     }
+                  }
+                  .ant-popconfirm-buttons {
+                     padding-top: 16px;
+                     display: flex;
+                     justify-content: flex-end;
+                     button {
+                        padding: 8px 16px !important;
+                        display: flex !important;
+                        gap: 8px;
+                        height: 36px;
+                        span {
+                           font-weight: 600 !important;
+                           margin: 0 !important;
+                        }
+                     }
+                     button.ant-btn.ant-btn-default {
+                        background-color: var(--color-neutral-0) !important;
+                        color: var(--color-neutral-9) !important;
+                        border-color: var(--color-neutral-1) !important;
+                        &:hover {
+                           background-color: var(--color-neutral-0-5) !important;
+                           color: var(--color-neutral-9) !important;
+                           border-color: var(--color-neutral-5) !important;
+                        }
+                     }
+                     button.ant-btn.ant-btn-primary {
+                        background-color: var(--color-error-3) !important;
+                        color: var(--color-neutral-0) !important;
+                        &:hover {
+                           background-color: var(--color-error-4) !important;
+                           color: var(--color-error-0) !important;
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+      .ant-popover-arrow {
+         &::after {
+            background: var(--color-error-2);
+         }
+         &::before {
+            background: transparent;
+         }
+      }
+   }
+}

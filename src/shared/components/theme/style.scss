@@ -1,0 +1,160 @@
+@import "./colors.scss";
+// .link-s {
+//   font-size: 14px;
+//   line-height: 18px;
+//   color: var(--color-neutral-6);
+//   text-decoration: underline;
+//   &:active,
+//   &:visited,
+//   &:focus {
+//     color: var(--color-neutral-7);
+//   }
+// }
+// body {
+//   background-color: var(--color-neutral-0-1);
+// }
+
+// button {
+//   cursor: pointer;
+// }
+
+// .brand-btn {
+//   cursor: pointer;
+//   height: 44px;
+//   padding: 0px 20px;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   border-radius: 10px;
+//   background-color: var(--color-brand-5);
+//   span {
+//     font-size: 15px;
+//     font-weight: 500;
+//     color: var(--color-neutral-9);
+//     padding-right: 10px;
+//   }
+//   svg {
+//     fill: var(--color-neutral-9);
+//   }
+//   &[disabled] {
+//     background-color: #cedcdb;
+//   }
+// }
+// button.clear-btn {
+//   cursor: pointer;
+//   height: 44px;
+//   padding: 0px 20px;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   border-radius: 10px;
+//   span {
+//     color: var(--color-neutral-6);
+//     font-size: 15px;
+//     font-weight: 500;
+//     text-decoration-line: underline;
+//   }
+//   &[disabled] {
+//     span {
+//       color: var(--color-neutral-2);
+//     }
+//   }
+// }
+
+// .brand-btn-icon {
+//   cursor: pointer;
+//   height: 40px;
+//   width: 40px;
+//   flex-basis: 40px;
+//   flex-grow: 0;
+//   flex-shrink: 0;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   border-radius: 20px;
+//   background-color: var(--color-brand-6);
+//   svg {
+//     fill: var(--color-brand-9);
+//   }
+// }
+// .layout-spin-holder {
+//   width: 100%;
+//   height: 100vh;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
+
+// .dialog-spin-holder {
+//   width: 100%;
+//   height: 30vh;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
+
+// /* Extra small devices (phones) */
+// @media only screen and (max-width: 576px) {
+//   /* Your CSS styles for extra small devices go here */
+//   // body {
+//   //   max-width: 390px;
+//   //   width: 390px;
+//   //   max-height: 720px;
+//   //   margin: 0 auto;
+//   //   position: relative;
+//   //   border-radius: 30px;
+//   //   border: 2px solid var(--color-neutral-2);
+//   // }
+// }
+
+// /* Small devices (tablets) */
+// @media only screen and (min-width: 576px) and (max-width: 767px) {
+//   // Your CSS styles for small devices go here */
+//   body {
+//     // width: 390px;
+//     // height: 720px;
+//     // margin: 0 auto;
+//     // position: relative;
+//     // border-radius: 30px;
+//     // border: 2px solid var(--color-neutral-2);
+//   }
+// }
+
+// /* Medium devices (desktops) */
+// @media only screen and (min-width: 768px) and (max-width: 991px) {
+//   /* Your CSS styles for medium devices go here */
+//   body {
+//     // width: 390px;
+//     // height: 884px;
+//     // margin: 0 auto;
+//     // position: relative;
+//     // border-radius: 30px;
+//     // border: 2px solid var(--color-neutral-2);
+//   }
+// }
+
+// /* Large devices (large desktops) */
+// @media only screen and (min-width: 992px) and (max-width: 1199px) {
+//   /* Your CSS styles for large devices go here */
+//   body {
+//     // width: 390px;
+//     // height: 884px;
+//     // margin: 0 auto;
+//     // position: relative;
+//     // border-radius: 30px;
+//     // border: 2px solid var(--color-neutral-2);
+//   }
+// }
+
+// /* Extra large devices (extra large desktops) */
+// @media only screen and (min-width: 1200px) {
+//   /* Your CSS styles for extra large devices go here */
+//   body {
+//     // width: 390px;
+//     // height: 884px;
+//     // margin: 0 auto;
+//     // position: relative;
+//     // border-radius: 30px;
+//     // border: 2px solid var(--color-neutral-2);
+//   }
+// }

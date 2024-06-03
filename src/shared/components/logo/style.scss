@@ -1,0 +1,27 @@
+.logo {
+  width: 72px;
+}
+.logo2 {
+  width: 64px;
+}
+@media (min-width: 768px) {
+  .logo {
+    width: fit-content;
+  }
+}
+@media (min-width: 1024px) {
+  .logo2 {
+    width: fit-content;
+  }
+}
+//   display: flex;
+//   align-items: center;
+//   transition: opacity 0.2s linear;
+//   width: 100%;
+//   img {
+//     height: 36px;
+//     margin-bottom: -3px;
+//   }
+//   &:hover {
+//     opacity: 0.8;
+//   }

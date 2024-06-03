@@ -1,0 +1,258 @@
+//
+//
+// COLOR --------------------------------
+//
+* {
+  //
+  //
+  // NEUTRAL -------
+  //
+  & {
+    &[p-color="neutral-0"] {
+      color: var(--color-neutral-0);
+    }
+    &[p-color="neutral-0-5"] {
+      color: var(--color-neutral-0-5);
+    }
+    &[p-color="neutral-1"] {
+      color: var(--color-neutral-1);
+    }
+    &[p-color="neutral-1-5"] {
+      color: var(--color-neutral-1-5);
+    }
+    &[p-color="neutral-2"] {
+      color: var(--color-neutral-2);
+    }
+    &[p-color="neutral-3"] {
+      color: var(--color-neutral-3);
+    }
+    &[p-color="neutral-4"] {
+      color: var(--color-neutral-4);
+    }
+    &[p-color="neutral-5"] {
+      color: var(--color-neutral-5);
+    }
+    &[p-color="neutral-6"] {
+      color: var(--color-neutral-6);
+    }
+    &[p-color="neutral-7"] {
+      color: var(--color-neutral-7);
+    }
+    &[p-color="neutral-8"] {
+      color: var(--color-neutral-8);
+    }
+    &[p-color="neutral-8-5"] {
+      color: var(--color-neutral-8-5);
+    }
+    &[p-color="neutral-9"] {
+      color: var(--color-neutral-9);
+    }
+    &[p-color="neutral-9-5"] {
+      color: var(--color-neutral-9-5);
+    }
+    &[p-color="neutral-10"] {
+      color: var(--color-neutral-10);
+    }
+  }
+  //
+  //
+  // GREEEN -------
+  //
+  & {
+    &[p-color="green-0"] {
+      color: var(--color-green-0);
+    }
+    &[p-color="green-1"] {
+      color: var(--color-green-1);
+    }
+    &[p-color="green-2"] {
+      color: var(--color-green-2);
+    }
+    &[p-color="green-3"] {
+      color: var(--color-green-3);
+    }
+    &[p-color="green-4"] {
+      color: var(--color-green-4);
+    }
+    &[p-color="green-5"] {
+      color: var(--color-green-5);
+    }
+    &[p-color="green-6"] {
+      color: var(--color-green-6);
+    }
+    &[p-color="green-7"] {
+      color: var(--color-green-7);
+    }
+    &[p-color="green-8"] {
+      color: var(--color-green-8);
+    }
+  }
+  //
+  //
+  // BLUE -------
+  //
+  & {
+    &[p-color="blue-0"] {
+      color: var(--color-blue-0);
+    }
+    &[p-color="blue-1"] {
+      color: var(--color-blue-1);
+    }
+    &[p-color="blue-2"] {
+      color: var(--color-blue-2);
+    }
+    &[p-color="blue-3"] {
+      color: var(--color-blue-3);
+    }
+    &[p-color="blue-4"] {
+      color: var(--color-blue-4);
+    }
+    &[p-color="blue-5"] {
+      color: var(--color-blue-5);
+    }
+    &[p-color="blue-6"] {
+      color: var(--color-blue-6);
+    }
+    &[p-color="blue-7"] {
+      color: var(--color-blue-7);
+    }
+    &[p-color="blue-8"] {
+      color: var(--color-blue-8);
+    }
+  }
+  //
+  //
+  // NAVY -------
+  //
+  & {
+    &[p-color="navy-0"] {
+      color: var(--color-navy-0);
+    }
+    &[p-color="navy-1"] {
+      color: var(--color-navy-1);
+    }
+    &[p-color="navy-2"] {
+      color: var(--color-navy-2);
+    }
+    &[p-color="navy-3"] {
+      color: var(--color-navy-3);
+    }
+    &[p-color="navy-4"] {
+      color: var(--color-navy-4);
+    }
+    &[p-color="navy-5"] {
+      color: var(--color-navy-5);
+    }
+    &[p-color="navy-6"] {
+      color: var(--color-navy-6);
+    }
+    &[p-color="navy-7"] {
+      color: var(--color-navy-7);
+    }
+    &[p-color="navy-8"] {
+      color: var(--color-navy-8);
+    }
+  }
+  //
+  //
+  // BRAND -------
+  //
+  & {
+    &[p-color="brand-1"] {
+      color: var(--color-brand-1);
+    }
+    &[p-color="brand-2"] {
+      color: var(--color-brand-2);
+    }
+    &[p-color="brand-3"] {
+      color: var(--color-brand-3);
+    }
+    &[p-color="brand-4"] {
+      color: var(--color-brand-4);
+    }
+    &[p-color="brand-5"] {
+      color: var(--color-brand-5);
+    }
+    &[p-color="brand-6"] {
+      color: var(--color-brand-6);
+    }
+    &[p-color="brand-7"] {
+      color: var(--color-brand-7);
+    }
+    &[p-color="brand-8"] {
+      color: var(--color-brand-8);
+    }
+    &[p-color="brand-9"] {
+      color: var(--color-brand-9);
+    }
+    &[p-color="brand-10"] {
+      color: var(--color-brand-10);
+    }
+  }
+  //
+  //
+  // ERROR -------
+  //
+  & {
+    &[p-color="error-0"] {
+      color: var(--color-error-0);
+    }
+    &[p-color="error-1"] {
+      color: var(--color-error-1);
+    }
+    &[p-color="error-2"] {
+      color: var(--color-error-2);
+    }
+    &[p-color="error-3"] {
+      color: var(--color-error-3);
+    }
+    &[p-color="error-4"] {
+      color: var(--color-error-4);
+    }
+    &[p-color="error-5"] {
+      color: var(--color-error-5);
+    }
+    &[p-color="error-6"] {
+      color: var(--color-error-6);
+    }
+    &[p-color="error-7"] {
+      color: var(--color-error-7);
+    }
+    &[p-color="error-8"] {
+      color: var(--color-error-8);
+    }
+  }
+  //
+  //
+  // WARNING -------
+  //
+  & {
+    &[p-color="warning-0"] {
+      color: var(--color-warning-0);
+    }
+    &[p-color="warning-1"] {
+      color: var(--color-warning-1);
+    }
+    &[p-color="warning-2"] {
+      color: var(--color-warning-2);
+    }
+    &[p-color="warning-3"] {
+      color: var(--color-warning-3);
+    }
+    &[p-color="warning-4"] {
+      color: var(--color-warning-4);
+    }
+    &[p-color="warning-5"] {
+      color: var(--color-warning-5);
+    }
+    &[p-color="warning-6"] {
+      color: var(--color-warning-6);
+    }
+    &[p-color="warning-7"] {
+      color: var(--color-warning-7);
+    }
+    &[p-color="warning-8"] {
+      color: var(--color-warning-8);
+    }
+  }
+}

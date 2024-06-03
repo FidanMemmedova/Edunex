@@ -1,0 +1,135 @@
+footer {
+  background-color: #535474;
+  color: white;
+  font-size: 0.75rem;
+}
+
+.top-container {
+  align-items: center;
+  gap: 32px;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  width: 64%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #616284;
+}
+
+.contact-text {
+  border-bottom: 1px solid #616284;
+  width: 32%;
+  padding-top: 24px;
+  padding-bottom: 4px;
+  text-align: center;
+  display: block;
+}
+
+.info-container {
+  margin-top: 16px;
+  margin-bottom: 12px;
+  text-align: center;
+  li {
+    padding-bottom: 12px;
+  }
+}
+
+.right-container {
+  display: none;
+  gap: 128px;
+  padding-left: 32px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-left: 1px solid #5d60ab;
+}
+
+h2 {
+  color: #9698d9;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.right-container li {
+  margin-bottom: 12px;
+  &:hover {
+    text-decoration-line: underline;
+  }
+}
+
+.bottom-container {
+  margin-right: 144px;
+  margin-left: 144px;
+  border-bottom: 1px solid #616284;
+}
+
+.media-text {
+  padding-bottom: 12px;
+  text-align: center;
+  display: block;
+}
+
+.media-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 16px;
+  padding-bottom: 32px;
+}
+
+.faq-container {
+  display: block;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 72px;
+}
+
+.faq-container li {
+  margin-bottom: 12px;
+  &:hover {
+    text-decoration-line: underline;
+  }
+}
+
+@media (min-width: 1024px) {
+  .top-container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 144px;
+    padding-top: 32px;
+  }
+  .logo-container {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+  }
+  .contact-text {
+    display: none;
+  }
+  .info-container {
+    text-align: left;
+  }
+  .right-container {
+    display: flex;
+  }
+  .media-text {
+    display: none;
+  }
+  .media-container {
+    justify-content: end;
+    margin-right: 32px;
+  }
+  .bottom-container {
+    border: none;
+  }
+  .faq-container {
+    display: none;
+  }
+}

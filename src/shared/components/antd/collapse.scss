@@ -1,0 +1,21 @@
+.ant-collapse {
+   background-color: var(--color-neutral-0);
+   .ant-collapse-item {
+      .ant-collapse-header {
+         .ant-collapse-header-text {
+            font-size: 18px;
+            font-weight: 600;
+         }
+         .ant-collapse-expand-icon {
+            .icon {
+               transform: scale(1.4) translateY(2px);
+            }
+         }
+      }
+      &.deactive {
+         .ant-collapse-content {
+            display: none !important;
+         }
+      }
+   }
+}

@@ -1,0 +1,112 @@
+.ant-btn {
+  height: 40px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  span {
+    font-weight: 600;
+  }
+
+  &.ant-btn-primary {
+    border-color: var(--color-brand-5);
+    background-color: var(--color-brand-5);
+    &:hover:not([disabled]) {
+      border-color: var(--color-brand-6) !important;
+      background-color: var(--color-brand-6) !important;
+    }
+    &.ant-btn-loading {
+      border-color: var(--color-brand-5) !important;
+      background-color: var(--color-brand-5) !important;
+    }
+    &[disabled] {
+      border-color: var(--color-neutral-2);
+      background-color: var(--color-neutral-2);
+      span {
+        color: var(--color-neutral-6);
+      }
+    }
+  }
+}
+// .radioBtn {
+//   display: inline-block;
+//   width: 20px;
+//   height: 20px;
+//   border: 1px solid #000; /* Kenar çizgisi */
+//   border-radius: 4px;
+// }
+// input[type="radio"]:checked + .radioBtn::after {
+//   content: "";
+//   display: block;
+//   width: 10px;
+//   height: 10px;
+//   background-color: #000;
+//   border-radius: 2px;
+//   margin: 3px; /* İç işareti hizalamak için kenar boşluğu */
+// }
+// //
+// //
+// //
+// .ant-btn {
+//    display: flex;
+//    align-items: center;
+//    justify-content: center;
+
+//    &.ant-btn-default {
+//       border-color: var(--color-neutral-1-5);
+//       background-color: var(--color-neutral-0);
+//       color: var(--color-neutral-7);
+//       &:hover {
+//          background-color: var(--color-neutral-0) !important;
+//          border-color: var(--color-neutral-4) !important;
+//          .icon svg path {
+//             stroke: var(--color-neutral-9) !important;
+//          }
+//          color: var(--color-neutral-9) !important;
+//       }
+//    }
+//    &.ant-btn-lg {
+//       height: 48px !important;
+//       padding: 4px 24px !important;
+//       &.ant-btn-icon-only {
+//          width: 48px !important;
+//          max-width: 48px !important;
+//          line-height: 2.58;
+//          box-sizing: border-box;
+//          padding: 0px !important;
+//       }
+//    }
+//    &.ant-btn-primary {
+//       box-shadow: none !important;
+//       background-color: var(--color-blue-4) !important;
+//       &:hover {
+//          background-color: var(--color-blue-5) !important;
+//          color: var(--color-blue-0) !important;
+//       }
+//    }
+//    &.ant-btn-dangerous {
+//       border-color: var(--color-error-1) !important;
+//       background-color: var(--color-error-0) !important;
+//       color: var(--color-error-4) !important;
+
+//       &:hover {
+//          border-color: var(--color-error-2) !important;
+//          background-color: var(--color-error-1) !important;
+//          color: var(--color-error-6) !important;
+//       }
+//    }
+//    &.ant-btn-primary:not(.ant-btn-lg),
+//    &.ant-btn-dangerous:not(.ant-btn-lg) {
+//       span {
+//          //margin-bottom: -2px !important;
+//       }
+//    }
+//    &[disabled] {
+//       background-color: var(--color-neutral-1-5) !important;
+//       color: var(--color-neutral-4) !important;
+//       &:hover {
+//          background-color: var(--color-neutral-1-5) !important;
+//          color: var(--color-neutral-4) !important;
+//       }
+//    }
+// }
